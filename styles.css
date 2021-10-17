@@ -1,0 +1,287 @@
+/*-------------main home css------------*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  overflow-x:hidden;
+
+}
+main #navm{
+  background:#341f97;
+}
+
+#navbarToggler ul li a{
+  color:white;
+  margin:10px;
+  padding:10px;
+  transition:1s;
+  border-radius:5px;
+}
+.back{
+  width:100%;
+  height:75vh;
+margin-top:100px;
+display:flex;
+justify-content:space-around;
+align-items:center;
+} 
+.back #first-item h2{
+  color:indigo;
+  letter-spacing:1px;
+  font-size:50px;
+  line-height:48x;
+}
+.back #first-item p{
+  color:gray;
+  line-height:35px;
+  font-size:20px;
+}
+.second-item{
+  margin-left:20px;
+}
+.back #first-item button{
+  width:200px;
+  height:55px;
+  outline:none;
+  background:#5f27cd;
+  border:2px solid indigo;
+  border-radius:25px;
+  margin:14px;
+font-size:20px;
+color:white;
+transition:0.6s;
+}
+.back .second-item img{
+  width:600px;
+  height:400px;
+  padding-left:30px;
+  padding-right:20px;
+
+}
+.back #first-item button:hover{
+  background:#341f97;
+}
+.back .second-item{
+  width:500px;
+  height:400px;
+
+}
+#navbarToggler ul li a:link{
+  color:red;
+}
+#navbarToggler ul li a:hover{
+  background:#2980b9;
+}
+.main3{
+  width:100vw;
+  height:1200px;
+
+}
+.main3 h2{
+ text-align:center;
+ font-size:45px;
+ font-weight:bold;
+ padding:20px;
+}
+#row2{
+  display:flex;
+justify-content:center;
+width:100vw;
+height:100%;
+padding:50px;
+}
+#row2 div{
+  margin:20px;
+  height:550px;
+  border:2px solid #d2dae2;
+  text-align:center;
+padding:12px;
+}
+#row4{
+  padding:20px;
+  margin-top:135px;
+
+}
+header footer{
+  width:100%;
+  height:370px;
+  background:black;
+}
+header .f-item{
+display:flex;
+justify-content:center;
+padding-top:90px;
+}
+.f-item input{
+  width:500px;
+  height:70px;
+  font-size:20px;
+outline:none;
+background:none;
+border:2px solid gray;
+padding:10px;
+color:white;
+
+}
+.f-item button{
+  width:200px;
+  height:70px;
+  font-size:20px;
+  outline:none;
+background:#341f97;
+border:2px solid gray;
+padding:10px;
+color:white;
+
+} footer hr{
+  width:100%;
+  height:2px;
+  background:gray;
+}
+.f-item button:hover{
+  background:#341f97;
+}
+.f-item input:hover{
+  border:3px solid red;
+}
+.f-link{
+  margin-top:40px;
+  width:100%;
+  height:70px;
+display:flex;
+justify-content:center;
+}
+.f-link i{
+margin-left:30px;
+font-size:40px;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+transition:0.3s;
+}
+.f-link i:nth-child(1):hover{
+  color:#2e86de;
+}
+.f-link i:nth-child(2):hover{
+  color:#20bf6b;
+}
+.f-link i:nth-child(3):hover{
+  color:#f53b57;
+}
+.f-link i:nth-child(4):hover{
+  color:#2e86de;
+}
+@media (min-width:1400px){
+
+  #navbarToggler ul li a{
+    color:white;
+    margin-left:30px;
+    margin-right:30px;
+    padding:15px;
+    padding-left:20px;
+    padding-right:20px;
+
+    transition:1s;
+    border-radius:5px;
+    font-size:20px;
+  }
+  
+  #imgq{
+    padding-left:90px;
+  }
+}
+@media (max-width:700px){
+
+#navm{
+  background:green;
+}
+.back{
+padding-top:50px;
+width:100%;
+height:800px;
+text-align:center;
+}
+.back #first-item{
+  width:90%;
+  padding:20px;
+  margin:0 auto;
+  height:400px;
+  overflow:hidden;
+}
+#navm{
+  background:#8395a7;
+}
+.back #first-item h2{
+font-size:35px;
+text-align:center;
+}
+.back #first-item p{
+  font-size:15px;
+  text-align:center;
+  padding:12px;
+  text-decoration:justify;
+
+  }
+  .back .second-item img{
+    width:500px;
+    height:400px;
+    padding-top:10px;
+    display:block;
+    margin:0 auto;
+  }
+  .back .second-item{
+    margin-top:0px;
+  }
+  .main3 #row div{
+    height:300px;
+    overflow:hidden;
+  }.main3{
+    height:3300px;
+
+  }#row2{
+    text-align:center;
+  }
+  #row4{
+    margin-top:50px;
+    text-align:center;
+  }
+  #row4 .scol h1{
+    color:#485460;
+    padding:16px;
+  }
+  #row4 .scol p{
+    color:gray;
+    padding:10px;
+    text-decoration:justify;
+  }
+  #row4 img{
+    width:400px;
+    padding:30px;
+  }
+#row2 div{
+  height:450px;
+text-align:center;
+  border:2px solid #d2dae2;
+  margin:30px;
+}
+footer .f-item input{
+width:300px;
+height:50px;
+}
+footer .f-item button{
+  width:100px;
+  height:50px;
+  background:#1e272e;
+}
+footer .f-link i{
+  font-size:35px;
+}
+footer p{
+  color:#d2dae2;
+}
+}
